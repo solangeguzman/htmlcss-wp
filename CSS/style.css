@@ -13,10 +13,13 @@
         float: left;
         text-align:start;
         
-        
     }
     
-    
+    #opacita{
+        background-color: rgb(5, 3, 3);
+        opacity:0.7;
+    }
+
     .container {
         max-width: 1090px;
         margin: 0 auto;
@@ -28,6 +31,7 @@
         height: 50px;
         margin: 20px 0;
         padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
     header{
@@ -63,9 +67,10 @@
 
 
     .main-page{
-        background-color: #FEEBE4;
+        background-color: #ffffff;
         margin: 20px 0 10px 0;
         padding-bottom: 20px;
+        
     }
     
     
@@ -85,16 +90,25 @@
         padding-top: 20%;
         color: white;
     }
-    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding: 9px;
+    }
+
     h4{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
 
-    }
+
+
 
     #text2{
-    color:rgb(139, 137, 137);
+    color: lightgrey;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+    font-size: 15px;
+}
 
     .text-paragraph{
         height: 100px;
@@ -118,7 +132,7 @@
     .right{
         width: 25%;
         height: 500px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     
     
@@ -127,17 +141,19 @@
         padding: 1%;
         background-color: blueviolet;
         height: 80px;
-        margin-top: 15px;
-        margin:auto;
+        margin-top: 50px;
+        margin: auto;
+        
     }
     
     .content {
-        background: rgb(136, 221, 119);
-        height: 500px;
+        background: rgb(255, 255, 255);
+        height: 550px;
+        align-content: center;
     }
     
     .leader{
         height: 50px;
-        background-color: rgb(155, 244, 247);
+        background-color: rgb(255, 255, 255);
         margin-bottom: 20px;
     }
