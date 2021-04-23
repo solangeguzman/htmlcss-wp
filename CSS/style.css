@@ -1,0 +1,143 @@
+*{box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    }
+    
+    .clearfix::after{
+        content: "";
+        display:table;
+        clear:both;
+    }
+    
+    .fl{
+        float: left;
+        text-align:start;
+        
+        
+    }
+    
+    
+    .container {
+        max-width: 1090px;
+        margin: 0 auto;
+    }
+    
+
+    nav{
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    
+    header{
+        height: 150px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 25px;
+    }
+    
+    #logo{
+        margin-top: 5px;
+        width: 200px;
+        height: 90px;
+    }
+
+    .list{
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+    }
+    
+    ul{
+       list-style: none;
+    }
+
+    li{
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 25px;
+        margin-left: 10px;
+        color: rgb(167, 159, 159)
+    }
+    
+
+
+
+    .main-page{
+        background-color: #FEEBE4;
+        margin: 20px 0 10px 0;
+        padding-bottom: 20px;
+    }
+    
+    
+    .row{
+        background-image: url(../img/banner.jpg);
+        background:cover;
+        opacity: 0.7;
+        width: 1090px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px 15px 15px 15px;
+       
+    }
+
+    .testo{
+        padding-left: 5%;
+        padding-top: 20%;
+        color: white;
+    }
+    
+    h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    #text2{
+    color:rgb(139, 137, 137);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .text-paragraph{
+        height: 100px;
+        background: cornflowerblue;
+        margin-bottom: 20px;
+    }
+    
+    .left{
+        width: 25%;
+        height: 500px;
+        padding-left: 10px;
+    }
+    
+    .center{
+        width: 50%;
+        height: 500px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .right{
+        width: 25%;
+        height: 500px;
+        padding-left: 20px;
+    }
+    
+    
+    footer{
+        width: 1090px;
+        padding: 1%;
+        background-color: blueviolet;
+        height: 80px;
+        margin-top: 15px;
+        margin:auto;
+    }
+    
+    .content {
+        background: rgb(136, 221, 119);
+        height: 500px;
+    }
+    
+    .leader{
+        height: 50px;
+        background-color: rgb(155, 244, 247);
+        margin-bottom: 20px;
+    }
