@@ -11,15 +11,16 @@
     
     .fl{
         float: left;
-        text-align:start;
+        
         
     }
-    
-    .opacita{
-        background-color: rgb(5, 3, 3);
-        opacity:0.7;
-        border-radius: 15px 15px 15px 15px;
+
+
+    .fr{
+        float: right;
     }
+    
+   
 
     .container {
         max-width: 1090px;
@@ -61,84 +62,100 @@
         display: inline-block;
         margin-right: 25px;
         margin-left: 10px;
-        color: rgb(167, 159, 159)
+        color: rgb(167, 159, 159);
     }
-    
-
-
 
     .main-page{
-        
+        background-color: rgb(255, 255, 255);
         margin: 20px 0 10px 0;
-        padding-bottom: 20px;
+        padding-bottom: 20px; 
+        height: 1090px;
         
+
     }
     
     
     .row{
         background-image: url(../img/banner.jpg);
+        background-color: rgb(250, 250, 250);
         background:cover;
-        opacity: 0.7;
         width: 1090px;
         height: 400px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 15px 15px 15px 15px;
-       
+        opacity: 0.7;
+        border-radius: 15px 15px 15px 15px; 
     }
 
+    
+
     .testo{
-        padding-left: 5%;
-        padding-top: 20%;
-        color: white;
+        margin-left: 5%;
+        margin-top: 20p%;
+        color: rgb(36, 26, 26);
     }
+
+
+    .leader{
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+    }
+
+
     h1{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-        margin-top: 9px;
+        color: rgb(95, 93, 93);
+        
+    }
+
+
+  #colorwhite{
+        color: rgb(95, 93, 93);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+       
+        margin-left: 7%;
+        
     }
 
     h4{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
  
     #text1{
         margin-right: 9%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: lightgrey
+        font-family: 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+        color: lightgrey;
     }
-
-
 
     #text2{
     color: lightgrey;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
+    text-align: left;
 }
-
-    .text-paragraph{
-        height: 100px;
-        background: cornflowerblue;
-        margin-bottom: 20px;
+    #img{
+        background-color: rgb(14, 9, 9);
+        opacity: 0.7;
+        border-radius: 15px 15px 15px 15px;
+        border-color: black;
     }
-    
+
     .left{
-        width: 25%;
-        height: 500px;
+        width: 263px;
+        height: 350px;
         padding-left: 10px;
     }
     
     .center{
-        width: 50%;
-        height: 500px;
+        width:  525px;
+        height: 350px;
         padding-right: 10px;
         padding-left: 10px;
     }
     
     .right{
-        width: 25%;
-        height: 500px;
-        padding-left: 10px;
+        width:  263px;
+        height: 350px;
+        padding-right: 25px;
     }
     
     
@@ -147,9 +164,8 @@
         padding: 1%;
         background-color: rgb(255, 255, 255);
         height: 80px;
-        margin-top: 50px;
-        margin: auto;
-        
+        margin-top: 15px;
+        margin: auto;  
     }
 
     #footertext{
@@ -159,14 +175,13 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
+    
+
+
     .content {
-        
-        height: 550px;
-        align-content: center;
+        height: 590px;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
     }
     
-    .leader{
-        height: 50px;
-        background-color: rgb(255, 255, 255);
-        margin-bottom: 20px;
-    }
+    
